@@ -123,6 +123,10 @@ border-bottom: 1px solid #ced4da;
   margin-bottom: 15px;
 }
 
+.info i {
+  color: #EF798A;
+}
+
 @media (max-width: 992px) {
   .navbar-brand {
     text-align: center;
