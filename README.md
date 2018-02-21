@@ -1,6 +1,8 @@
-# Hackathon Challenge: Movie Geek
+# Movie Geek
 
-**Movie Geek** es una web app que te permite obtener información acerca de películas del genero ciencia ficción, ademas de poder agregar a tus listas las películas que quieres ver en el futuro y aquellas que ya viste.
+**Movie Geek** es un aplicativo, enfocado al público geek, que brinda información sobre películas del género de ciencia ficción. Además, permite a los usuarios registrados llevar cuenta de las películas, que ya vieron o quieren, ver mediante listas.
+
+![](https://fotos.subefotos.com/61cd1704ea8f607f33cd53b0bdb7b92eo.png)
 
 ***
 
@@ -8,16 +10,16 @@
 
 Para desarrollar el producto seguimos el siguiente flujo de trabajo:
 
-#### 1 . Identicación del problema:
+#### 1 . Identificación del problema
 
-  Hay un boom de películas sci-fi últimamente, en las que se incluyen películas de superhéroes. En este boom, hay tanto películas nuevas como remakes. Hay muchas personas que son ávidas de este tipo de películas y les gusta ver los remakes, como Star Wars y Planeta de los simios, o las películas nuevas de ciertos estudios cinematográficos, como Marvel studios y Warner Bros. Pictures en alianza con DC Entertainment. Entonces hay muchas personas que les gusta ir a verlas, disfrutarlas, calificarlas, criticarlas y compararlas. Al tener esta atracción, necesitan un lugar específico donde puedan conseguir el tipo de información que quieren tener de sus películas favoritas y las que las atraen.
+  Hoy en día, existe un boom en lo que se refiere a películas de ciencia ficción y en la cultura geek en general. Esto se puede evidenciar en la gran cantidad de contenido cinematográfico con respecto a este tema, y el movimiento que esto genera en el público: el ir a verlo, disfrutarlo, calificarlo y criticarlo. Sin embargo, hasta el momento, no hemos encontrado una plataforma que se enfoque en este público consumidor específico, en la que pueda encontrar toda la información sobre este tipo de películas.
 
-#### 2. Identificación del Usuario:
-  La persona que busca esta información suele ser conocedora, sino experta en la materia. Por ejemplo, Julio, quien es diseñador gráfico, tiene 25 años y es un geek ávido de películas sci-fi. Él conoce el director, los actores, les interesa la cinematografía (si los colores son cálidos o fríos), la banda sonora y el compositor, como Hans zimmer en la película The dark knight Rises, Interstellar y The amazing Spiderman o el duo musical Daft Punk para Tron. Le atrae el aspecto audiovisual de este tipo de películas. Es detallista, selectivo y exigente en cuanto a las películas que ve y las investiga antes de verlas en blogs, páginas web que no contengan spoiler y sean imparciales. Le interesa la calificación de las películas con una vista estadísticamente gráfica (del 1 al 5, del 1 al 10, 5 estrellitas o un dedito arriba). Necesita obtener información relativamente general pero precisa de las películas que les gusta.
+#### 2. Identificación del usuario
 
-  ![Sin titulo](assets/docs/user.jpg)
+  La persona que busca esta información suele ser conocedora, sino experta en la materia. Por ejemplo, Julio, quien es diseñador gráfico, tiene 25 años y es un geek ávido de películas sci-fi. Él conoce el director, los actores, le interesa la cinematografía, la dirección fotográfica, la banda sonora. Es detallista, selectivo y exigente en cuanto a las películas que ve y las investiga antes de verlas en medio digitales. Le interesa la calificación de las películas con una vista estadísticamente gráfica (del 1 al 5, del 1 al 10, 5 estrellitas o un dedito arriba). Necesita obtener información relativamente general pero precisa de las películas que le gustan.
 
-#### 3. Entrevista a los usuarios:
+#### 3. Entrevista a los usuarios
+
   Se realizó una entrevista a 2 usuarios con la siguiente lista de preguntas:
   * ¿Por qué te gustan las películas sci-fi?
   * ¿Qué quieres encontrar cuando buscas información de una película de sci-fi?
@@ -35,73 +37,15 @@ Para desarrollar el producto seguimos el siguiente flujo de trabajo:
 
   De acuerdo al perfil del usuario hemos planteado un sketch que tiene un flujo de las vistas a las que este puede acceder.
 
-![Sin titulo](assets/docs/sketch.jpg)
-
 #### 5. Testeo con el usuario:
   Se mostró el sketch a los usuarios para ver si les resultaba útil la distribución de la propuesta de la web app. La mayoría de la distribución y funcionalidad fue entendida y aceptada, excepto la ubicación de los íconos que permitirían agregar una película a su lista de películas por ver y las que ya han visto. Sugirieron ubicarlos debajo del título, duración, director y género de la película, en vez de estar sobre la imagen del poster.
   En base a este feedfack, se procedió a hacer las modificaciones respectivas.
-
-#### 6. Diseño UI:
-
-  En este punto definimos el logo, la paleta de colores, el diseño de los botones,  el diseño de los inputs y la tipografía .
-
-![Sin titulo](assets/docs/diseño.jpg)
 
 ### Organización del trabajo
 
 Para elaborar el producto las tareas fueron distribuidas de la siguiente manera:
 
 ![Sin titulo](assets/docs/organización-trello.JPG)
-
-#### Primera sesión:
-
-En la primera sesión nos distribuimos las maquetación de las vistas del producto.
-
-Registro + login -> Andrea
-
-Home + buscador -> Kathy
-
-Información de las películas -> Shannon
-
-Vista perfil -> Lizbeth
-
-#### Segunda sesión:
-
-En la segunda sesión nos distribuimos la funcionalidad de las vistas del producto.
-
-Filtro por género -> Andrea y Kathy
-
-Terminar maquetación -> Shannon y Liz
-
-Terminar login con email -> Andrea
-
-Diseño responsive -> Shannon
-
-#### Tercera sesión:
-
-En la tercera sesión nos distribuimos la funcionalidad y diseño de las vistas del producto.
-
-Vista detalle (jalar data) -> Kathy y Andrea
-
-Pasar información de movie-info a user-profile -> Liz
-
-Unificar estilos -> Shannon
-
-![Sin titulo](assets/docs/planificacion.jpg)
-
-### Recursos utilizados
-
-* jQuery
-* Bootstrap 4
-* Firebase
-* OMDB API
-
-### Integrantes:
-
-* Andrea Chumioque
-* Lizbeth Felix
-* Katherine Lévano
-* Shannon Rivera
 
 ### Flujo de la aplicación:
 
@@ -114,3 +58,20 @@ Unificar estilos -> Shannon
 ![Sin titulo](assets/docs/vista-movie-info.png)
 
 ![Sin titulo](assets/docs/vista-profile.png)
+
+### Recursos utilizados
+
+* jQuery
+* Bootstrap 4
+* Firebase
+* OMDB API
+
+### Desarrollo
+
+* Andrea Chumioque
+* Lizbeth Felix
+* Katherine Lévano
+
+## UX Design
+
+* Shannon Rivera
