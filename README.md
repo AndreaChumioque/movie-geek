@@ -4,9 +4,7 @@
 
 ![](https://fotos.subefotos.com/61cd1704ea8f607f33cd53b0bdb7b92eo.png)
 
-***
-
-### Desarrollo del producto
+## Desarrollado para [Laboratoria](http://laboratoria.la) 
 
 Para desarrollar el producto seguimos el siguiente flujo de trabajo:
 
