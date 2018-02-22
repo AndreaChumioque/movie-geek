@@ -2,7 +2,7 @@
 
 **Movie Geek** es un aplicativo, enfocado al público geek, que brinda información sobre películas del género de ciencia ficción. Además, permite a los usuarios registrados llevar cuenta de las películas, que ya vieron o quieren, ver mediante listas.
 
-![MovieGeek](https://fotos.subefotos.com/61cd1704ea8f607f33cd53b0bdb7b92eo.png)
+![MovieGeek](https://fotos.subefotos.com/0b07e760fd5b611cab6b2d44789307b2o.png)
 
 ## Desarrollado para [Laboratoria](http://laboratoria.la) 
 
